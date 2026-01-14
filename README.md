@@ -1,13 +1,13 @@
 # Tmux Power-User Configuration
 
-A high-throughput tmux setup designed for quantitative workflows.
+My tmux setup designed for quantitative workflows.
 Features **Ctrl+a** prefix, **Vim-navigation** integration, and **mouse support**.
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/tmux-config.git](https://github.com/YOUR_USERNAME/tmux-config.git) ~/tmux-config
+git clone https://github.com/stan257/tmux-config.git ~/tmux-config
 ```
 
 ### 2. Run the setup script
@@ -17,7 +17,7 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-### 3. Install Plugins (Critical Step)
+### 3. Install Plugins
 This config relies on the Tmux Plugin Manager (TPM). It is installed by the script, but you must trigger the plugin download manually:
 1. Launch tmux: `tmux`
 2. Press **`Ctrl + a`** (Release keys)
@@ -26,7 +26,7 @@ This config relies on the Tmux Plugin Manager (TPM). It is installed by the scri
 
 ---
 
-## ⌨️ Cheat Sheet
+## Cheat Sheet
 
 ### **Core**
 | Action | Binding | Note |
@@ -62,7 +62,7 @@ This config relies on the Tmux Plugin Manager (TPM). It is installed by the scri
 4. Yank text: `y` (Copies to system clipboard)
 5. Exit: `q` or `Esc`
 
-## 🛠 Troubleshooting
+## Troubleshooting
 
 **"Ctrl+a isn't working"**
 * You might still be on the old config. Run `tmux source ~/.tmux.conf` or kill the server with `tmux kill-server`.
