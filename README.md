@@ -26,6 +26,22 @@ This config relies on the Tmux Plugin Manager (TPM). It is installed by the scri
 
 ---
 
+## Session Management (tmuxp)
+
+This configuration includes **tmuxp** layouts for reproducible sessions.
+Layouts are located in the `tmuxp/` directory and symlinked to `~/.config/tmuxp/` by the dotfiles installer.
+
+### Usage
+```bash
+# Load the 'code' session (Research & Dev)
+tmuxp load code
+
+# Load the 'ops' session (Monitoring & Git)
+tmuxp load ops
+```
+
+---
+
 ## Cheat Sheet
 
 ### **Core**
