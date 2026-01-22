@@ -5,6 +5,8 @@ Features **Ctrl+a** prefix, **Vim-navigation** integration, and **mouse support*
 
 ## Installation
 
+Requirements: tmux 3.2+ and `tmuxp` (for session layouts). The tmuxp layouts expect `nvim`, `ipython`, `lazygit`, and `btop` to be available.
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/stan257/tmux-config.git ~/tmux-config
